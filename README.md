@@ -10,15 +10,6 @@ This project explores sales and quantity trends using the Superstore dataset, fo
 
 ## 📁 Versions
 
-### 🔹 Version 1: Base Sales Dashboard
-- **File:** `1st_visual.pbix`
-- **Features:**
-  - KPI Cards for Sales, Profit, Quantity
-  - Monthly Sales Trend (Line Chart)
-  - Sales by Region (Map)
-  - Top Categories by Profit (Bar Chart)
-  - Slicers for Region and Segment
-
 ### 🔹 Version 2: Advanced Dashboard with KPI Goal Tracker
 - **File:** `v2_SalesDashboard_with_GoalKPI.pbix` or `poww.pbit`
 - **Features:**
