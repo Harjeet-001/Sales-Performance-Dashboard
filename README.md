@@ -74,6 +74,12 @@ While the `.pbit` file is template-only, the dashboard was built using:
 - **Source:** [Superstore – data.world](https://data.world/markbradbourne/superstore)
 
 You can place it under `data/Sample - Superstore.xlsx` for consistency.
+## 📁 Dataset
+
+- File: `data/Sample - Superstore.xlsx`
+- Source: [Superstore Dataset – data.world](https://data.world/markbradbourne/superstore)
+
+This dataset is used to generate all visualizations in the Power BI dashboard
 
 ---
 
