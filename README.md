@@ -4,62 +4,92 @@ A Power BI dashboard that analyzes sales and quantity trends by category, region
 # 📊 Sales Performance Dashboard – Power BI
 
 ## 🔍 Overview
-This project explores sales and quantity trends using the Superstore dataset, focusing on region, category, and time-based patterns. It includes two versions of a Power BI dashboard — starting with a basic version and evolving into a more advanced version with goal tracking and improved interactivity.
+This project presents a clean and interactive Power BI dashboard that analyzes Superstore sales data. It focuses on category-wise quantity, regional trends, time-based sales, and includes a goal-based KPI tracker. The dashboard is shared both as a `.pbix` project and a reusable `.pbit` template for others to build on.
 
 ---
 
-## 📁 Versions
+## 📦 What's Included
 
-### 🔹 Version 2: Advanced Dashboard with KPI Goal Tracker
-- **File:** `v2_SalesDashboard_with_GoalKPI.pbix` or `poww.pbit`
-- **Features:**
-  - Goal-based KPI Card
-  - Cleaner layout & visual alignment
-  - Category & Region Slicers
-  - Sales and Quantity by City & Country
-  - Improved Time Series Analysis
+| File/Folder          | Description                                           |
+|----------------------|-------------------------------------------------------|
+| `template/poww.pbit` | Power BI template file (no data) for reuse            |
+| `screenshots/`       | Contains preview image(s) of the dashboard            |
+| `data/` *(optional)* | Suggested folder for dataset (e.g., Superstore.xlsx)  |
 
 ---
 
-## 🧰 Tools Used
+## 🛠️ Tools Used
 - Power BI Desktop
-- DAX (for KPI calculations and formatting)
+- DAX for KPI & measure logic
 - Superstore Dataset (public)
+- Slicers and card visuals
 
 ---
 
-## 📷 Dashboard Previews
+## 🧩 Key Features
+- 💡 **Goal-Based KPI Card**  
+  Displays actual vs target quantity progress
 
-### 📌 Version 2 Preview:
+- 📊 **Bar Charts**  
+  Shows quantity breakdown by Region, City, and Category
+
+- 🌐 **Map Visual**  
+  Displays geographic sales distribution
+
+- 📈 **Sales Trend Line Chart**  
+  Time-based analysis of average sales
+
+- 🎛️ **Interactive Filters**  
+  Region, Segment, and Product Category
+
+---
+
+## 📷 Dashboard Preview
+
 ![Dashboard v2](screenshots/dashboard_v2.png)
 
 ---
 
-## 📁 Dataset
-- `data/Sample - Superstore.xlsx`  
-- Source: [Superstore – data.world](https://data.world/markbradbourne/superstore)
+## 📁 Power BI Files
+
+| File Name                           | Purpose                                  |
+|------------------------------------|------------------------------------------|
+| `poww.pbit`                        | Reusable Power BI Template (no data)     |
+| *(You may add .pbix if needed)*    | *(Full version with embedded dataset)*   |
 
 ---
 
-## 🧠 Learnings
-- Building reusable templates with `.pbit`
-- Goal KPI tracking using DAX and card visuals
-- Slicer interactivity for business filters (category, region)
-- Time-series breakdown with custom aggregations
+## 🧠 How to Use
+
+1. Download `poww.pbit`
+2. Open in Power BI Desktop
+3. Load your own data (or use Superstore dataset)
+4. Customize visuals or filters as needed
+
+---
+
+## 📁 Dataset Reference
+While the `.pbit` file is template-only, the dashboard was built using:
+- **Dataset:** Superstore Sales
+- **Source:** [Superstore – data.world](https://data.world/markbradbourne/superstore)
+
+You can place it under `data/Sample - Superstore.xlsx` for consistency.
 
 ---
 
 ## 👤 Author
 
 **Harjeet Gowda**  
-🎓 B.Sc. Data Science | Kumaraguru College  
+🎓 Data Science Student | Kumaraguru College  
 📧 harjeetgowda@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/harjeet-gowda-a0490033)
 
 ---
 
 ## 💬 Feedback & Collaboration
-Feel free to explore, fork, or suggest improvements.  
-Open to freelance, internship, and project collaboration opportunities!
+
+Open to internships, freelance projects, and collaborations in data analytics and dashboard design. Feel free to explore, fork, and connect!
+
+
 
 
