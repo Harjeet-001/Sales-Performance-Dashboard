@@ -14,7 +14,7 @@ This project presents a clean and interactive Power BI dashboard that analyzes S
 |----------------------|-------------------------------------------------------|
 | `template/poww.pbit` | Power BI template file (no data) for reuse            |
 | `screenshots/`       | Contains preview image(s) of the dashboard            |
-| `data/` *(optional)* | Suggested folder for dataset (e.g., Superstore.xlsx)  |
+| `data/`              | Suggested folder for dataset ( Superstore.xlsx)  |
 
 ---
 
@@ -55,16 +55,9 @@ This project presents a clean and interactive Power BI dashboard that analyzes S
 | File Name                           | Purpose                                  |
 |------------------------------------|------------------------------------------|
 | `poww.pbit`                        | Reusable Power BI Template (no data)     |
-| *(You may add .pbix if needed)*    | *(Full version with embedded dataset)*   |
+| *(Full version with embedded dataset)*   |
 
----
 
-## 🧠 How to Use
-
-1. Download `poww.pbit`
-2. Open in Power BI Desktop
-3. Load your own data (or use Superstore dataset)
-4. Customize visuals or filters as needed
 
 ---
 
@@ -73,26 +66,21 @@ While the `.pbit` file is template-only, the dashboard was built using:
 - **Dataset:** Superstore Sales
 - **Source:** [Superstore – data.world](https://data.world/markbradbourne/superstore)
 
-You can place it under `data/Sample - Superstore.xlsx` for consistency.
 ## 📁 Dataset
 
 - File: `data/Sample - Superstore.xlsx`
 - Source: [Superstore Dataset – data.world](https://data.world/markbradbourne/superstore)
 
-This dataset is used to generate all visualizations in the Power BI dashboard
-
 ---
 
 ## 👤 Author
 
-**Harjeet Gowda**  
+   *Harjeet Gowda*
 🎓 Data Science Student | Kumaraguru College  
 📧 harjeetgowda@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/harjeet-gowda-a0490033)
 
----
 
-## 💬 Feedback & Collaboration
 
 Open to internships, freelance projects, and collaborations in data analytics and dashboard design. Feel free to explore, fork, and connect!
 
